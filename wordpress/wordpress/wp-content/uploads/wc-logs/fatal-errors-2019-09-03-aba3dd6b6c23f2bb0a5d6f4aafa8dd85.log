@@ -1,0 +1,8 @@
+2019-09-03T06:38:34+00:00 CRITICAL Cannot redeclare wp_should_upgrade_global_tables() (previously declared in /var/www/wordpress/wp-admin/includes/upgrade.php:3327) in /var/www/wordpress/wp-admin/includes/upgrade.php on line 3327
+
+2019-09-03T06:38:35+00:00 CRITICAL Cannot redeclare wp_should_upgrade_global_tables() (previously declared in /var/www/wordpress/wp-admin/includes/upgrade.php:3327) in /var/www/wordpress/wp-admin/includes/upgrade.php on line 3327
+
+2019-09-03T06:39:02+00:00 CRITICAL Cannot redeclare wp_should_upgrade_global_tables() (previously declared in /var/www/wordpress/wp-admin/includes/upgrade.php:3327) in /var/www/wordpress/wp-admin/includes/upgrade.php on line 3327
+
+2019-09-03T06:39:02+00:00 CRITICAL Cannot redeclare wp_should_upgrade_global_tables() (previously declared in /var/www/wordpress/wp-admin/includes/upgrade.php:3327) in /var/www/wordpress/wp-admin/includes/upgrade.php on line 3327
+

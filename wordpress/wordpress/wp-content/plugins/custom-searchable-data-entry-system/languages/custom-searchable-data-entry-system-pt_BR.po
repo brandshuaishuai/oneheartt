@@ -1,0 +1,706 @@
+# CUSTOM SEARCHABLE DATA ENTRY SYSTEM POT
+# Copyright (C) 2015 GHAZALE SHIRAZI
+# This file is distributed under the GNU General Public License v2 or later.
+# GHAZALE SHIRAZI <ghsh88@gmail.com>, 2015.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Banco de Dados Pesquisáveis\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-10-15 12:18+0400\n"
+"PO-Revision-Date: 2016-01-21 19:41-0300\n"
+"Last-Translator: Edmilson <ecoleta@yahoo.com.br>\n"
+"Language-Team: Edmilson Coleta <dimycoleta@gmail.com>\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 1.6.10\n"
+
+#: sds-main.php:33
+msgid "Welcome to Custom Searchable Data Entry System"
+msgstr "Bem-vindo ao Sistema de Entrada de Dados personalizado pesquisável"
+
+#: sds-main.php:34
+msgid "Making Your First Form"
+msgstr "Fazendo seu primeiro formulário"
+
+#: sds-main.php:35
+msgid "To make a new form, follow these steps"
+msgstr "Para fazer um novo formulário, siga estes passos"
+
+#: sds-main.php:37
+msgid "Click on \"Create Form\" menu. Name your new form and create it."
+msgstr ""
+"Clique no menu \"Criar formulário \". Nome do seu novo formulário e criá-lo."
+
+#: sds-main.php:38
+msgid ""
+"Click on \"Add Fields\" menu. Select your newly created form, name your "
+"field and choose field type (e.g.: Text Input, Checkbox, DropDown, etc). You "
+"can also choose whether you want this field to be \"Hidden\" or not. (Hidden "
+"fields won't be shown on user's search query)"
+msgstr ""
+"Clique no menu  \"Adicionar Campos \". Selecione seu formulário recém-"
+"criado, o nome do seu campo e escolher o tipo de campo (por exemplo: Entrada "
+"de Texto, Caixa de Verificação, DropDown, etc). Você também pode escolher se "
+"deseja que este campo seja  \"Escondido \" ou não. (Campos ocultos não será "
+"mostrado na consulta de pesquisa do usuário)"
+
+#: sds-main.php:39
+msgid ""
+"Repeat number 2 and add as much as fields you like. (You can add unlimited "
+"number of fields to your form)"
+msgstr ""
+"Repita número 2 e adicionar tanto quanto campos que você gosta. (Você pode "
+"adicionar um número ilimitado de campos ao formulário)"
+
+#: sds-main.php:40
+msgid ""
+"Your form is ready to use. Click on \"Forms\" menu. You can see the form "
+"that you have made in previous steps. You can also edit or delete any of the "
+"form fields."
+msgstr ""
+"Sua forma está pronto para usar. Clique no menu \"Formulário \". Você pode "
+"ver o formulário que você fez nas etapas anteriores. Você também pode editar "
+"ou excluir qualquer um dos campos do formulário."
+
+#: sds-main.php:43
+msgid "Having Your Search Field on Front-end"
+msgstr "Tendo a sua procura em campo na página desejada"
+
+#: sds-main.php:44
+msgid ""
+"Just put the shortcode [sds-search] on any post or page and you'll have it "
+"up an running."
+msgstr ""
+"Basta colocar o shortcode [sds-search] em qualquer post ou página e você vai "
+"tê-lo instalado um corredor."
+
+#: sds-main.php:46
+msgid "A Quick Look of the Features"
+msgstr "Um olhar rápido das Características"
+
+#: sds-main.php:48
+msgid ""
+"You have full control over the creation of your forms, number of fields and "
+"the field types."
+msgstr ""
+"Você tem controle total sobre a criação de seus formulários, número de "
+"campos e os tipos de campo."
+
+#: sds-main.php:49
+msgid "You can create unlimited number of forms."
+msgstr "Você pode criar um número ilimitado de fomulários"
+
+#: sds-main.php:50
+msgid "You can have unlimited number of fields in each form."
+msgstr "Você pode ter um número ilimitado de campos em cada formulário."
+
+#: sds-main.php:51
+msgid ""
+"You can have full control over the search query results and can decide which "
+"data to be displayed or to be hidden in the user's search result."
+msgstr ""
+"Você pode ter controle total sobre os resultados da consulta de pesquisa e "
+"pode decidir quais os dados a serem exibidos ou para ser escondido em "
+"resultado de pesquisa do usuário."
+
+#: sds-main.php:52
+msgid ""
+"The user can search the form based on ANY of the entries that you have in "
+"your backend."
+msgstr ""
+"O usuário poderá pesquisar o formulário com base em qualquer uma das "
+"entradas que você tem em seu backend."
+
+#: sds-main.php:53
+msgid "Example:"
+msgstr "Exemplo:"
+
+#: sds-main.php:54
+msgid "Let's assume these are your entries in the backend:"
+msgstr "Vamos supor que estas são as suas entradas no backend:"
+
+#: sds-main.php:78
+msgid ""
+"In this example the user can search based on any of the entries. (It can be "
+"Client Name, Client Project, Client City or Client Reference ID)"
+msgstr ""
+"Neste exemplo, o usuário pode pesquisar com base em qualquer uma das "
+"entradas. (Pode ser Nome do Cliente, Projeto, o Cliente ou Cidade Referência "
+"do Cliente ID)"
+
+#: sds-main.php:79
+msgid ""
+"If the user search is \"David\" the first row will be returned to the user. "
+"If the user search is \"London\", again the first row will be returned. And "
+"if the user search is \"New York\", the second row will be returned to the "
+"user. So basically the user is able to search based on any information that "
+"you provide."
+msgstr ""
+"Se a pesquisa do usuário é \"David \" a primeira linha será devolvido ao "
+"usuário. Se a pesquisa do usuário é  \"London \", novamente a primeira linha "
+"será devolvido. E se a pesquisa do usuário é \"New York \", a segunda linha "
+"será devolvido ao usuário. Então, basicamente, o usuário é capaz de "
+"pesquisar com base em todas as informações que você fornecer."
+
+#: sds-main.php:80
+msgid ""
+"And of course if you make a particular field as \"Hidden\", those data won't "
+"be shown to the user."
+msgstr ""
+"E é claro, se você fizer um campo específico como  \"Esconder \", esses "
+"dados não será mostrado para o usuário."
+
+#: sds-main.php:81
+msgid ""
+"You can have your search form on front-end with a single shortcode. The "
+"search results will appear on the same page right below the search form."
+msgstr ""
+"Você pode ter seu formulário de pesquisa no front-end com um único "
+"shortcode. Os resultados da pesquisa serão exibidos na mesma página, logo "
+"abaixo do formulário de busca."
+
+#: sds-main.php:82
+msgid "You can Edit or Delete any of the fields that you don't want anymore."
+msgstr ""
+"Você pode editar ou excluir qualquer um dos campos que você não quer mais."
+
+#: sds-main.php:83
+msgid ""
+"The search result will only return the result only if it finds the exact "
+"match, Otherwise it says\"No Result\"."
+msgstr ""
+"O resultado da pesquisa só retornará o resultado só se encontra a "
+"correspondência exata, caso contrário ele diz  \"Sem Resultado\"."
+
+#: sds-main.php:84
+msgid ""
+"You can change the hidden fields to be shown or vice versa anytime you wish."
+msgstr ""
+"Você pode alterar os campos ocultos para ser mostrado ou vice-versa quando "
+"você deseja."
+
+#: sds-main.php:85
+msgid ""
+"Similar matches from all entry tables can be returned, and they are being "
+"displayed in separate result tables when the user searches the data. So you "
+"can organize your data in any way you like."
+msgstr ""
+"Jogos similares de todas as tabelas de entrada pode ser devolvido, e eles "
+"estão sendo exibidas em tabelas de resultados separados quando o usuário "
+"procura os dados. Assim, você pode organizar seus dados em qualquer maneira "
+"que você gosta."
+
+#: sds-main.php:86
+msgid ""
+"You can also upload the data that is already on your local computer (in CSV "
+"format that comes from your Excel file) and have the same features like the "
+"tables that you create through plugin. You can add records, edit/delete "
+"fields or delete selected inputs."
+msgstr ""
+"Você também pode enviar os dados que já está em seu computador local (no "
+"formato CSV que vem de seu arquivo de Excel) e têm as mesmas características "
+"como as tabelas que você criar através de plugin. Você pode adicionar "
+"registros, editar / excluir campos ou excluir entradas selecionadas."
+
+#: sds-main.php:88
+msgid ""
+"Additional Note: The \"File Upload\" field type is intended for image "
+"uploads only."
+msgstr ""
+"Nota adicional: O \"File Upload \" tipo de campo é destinado apenas para o "
+"upload de imagens."
+
+#: sds-main.php:89 sds-main.php:716
+msgid "Entries"
+msgstr "Entradas"
+
+#: sds-main.php:90
+msgid ""
+"Your entries are all being stored on \"Entries\" page in organized tabs and "
+"tables. If you wanted to delete any single entry you can do it there as well."
+msgstr ""
+"As entradas estão todos sendo armazenados em \"entradas \" em guias "
+"organizados e tabelas. Se você quiser excluir qualquer entrada única que "
+"você pode fazê-lo lá também."
+
+#: sds-main.php:91
+msgid ""
+"You also have the ability to totally delete the selected entries table, or "
+"both the entries table and its correspondent form"
+msgstr ""
+"Você também tem a capacidade de eliminar totalmente a tabela entradas "
+"selecionado, ou a tabela de entradas e sua forma correspondente"
+
+#: sds-main.php:96
+msgid "Welcome"
+msgstr "Bem Vindo"
+
+#: sds-main.php:107
+msgid "Create New Form"
+msgstr "Criar novo formulário"
+
+#: sds-main.php:108
+msgid "Form Name"
+msgstr "Nome do Formulário"
+
+#: sds-main.php:108
+msgid "Alphanumeric characters only. No spaces."
+msgstr "Apenas caracteres alfanuméricos. Sem espaços."
+
+#: sds-main.php:109
+msgid "Create Form"
+msgstr "Criar um formulário"
+
+#: sds-main.php:131
+msgid "Form Created Successfully"
+msgstr "Formulário criado com sucesso"
+
+#: sds-main.php:133
+msgid "That name already exists"
+msgstr "Esse nome já existe"
+
+#: sds-main.php:137
+msgid "The form name SHOULD be alphanumeric. Please enter a valid name"
+msgstr ""
+"O nome do formulário deve ser alfanumérico. Por favor, indique um nome válido"
+
+#: sds-main.php:154
+msgid "Add Fields To The Form"
+msgstr "Adicionar campos ao formulário"
+
+#: sds-main.php:155
+msgid ""
+"Once you've added the fields you can see your form under the (Forms) menu."
+msgstr ""
+"Depois de adicionar os campos que você pode ver a sua forma sob o menu "
+"(Formulário)."
+
+#: sds-main.php:156
+msgid ""
+"Note: You cannot add fields to the forms that has already received inputs. "
+"The forms that have inputs are locked against changes. If you wish to edit "
+"or add fields to those forms, you should first delete their correspondent "
+"input data."
+msgstr ""
+"Nota: Você não pode adicionar campos para as formas que já recebeu insumos. "
+"Os formulários que têm entradas estão bloqueadas contra alterações. Se você "
+"deseja editar ou adicionar campos para essas formas, você deve primeiro "
+"excluir seus dados de entrada correspondentes."
+
+#: sds-main.php:157 sds-main.php:158
+msgid "Select Form"
+msgstr "Selecione Formulário"
+
+#: sds-main.php:174
+msgid "Select the form to which you want to add the field"
+msgstr "Selecione o formulário ao qual você deseja adicionar o campo"
+
+#: sds-main.php:175 sds-main.php:455
+msgid "Field Name"
+msgstr "Nome do campo"
+
+#: sds-main.php:175
+msgid ""
+"Example: Name, Email, Address, etc... (Should be Alphanumeric. Can have "
+"space and allowed Symbols: @-_.,\\/:?'!;&~())"
+msgstr ""
+"Exemplo: Nome, E-mail, endereço, etc ... (Deve ser alfanumérico pode ter de "
+"espaço e permitidos símbolos: @ -_, \\ /:..?! '; & ~ ())"
+
+#: sds-main.php:177 sds-main.php:457
+msgid "Field Type"
+msgstr "Tipo de campo"
+
+#: sds-main.php:178 sds-main.php:458
+msgid "Select Field Type"
+msgstr "Escolha um tipo de campo"
+
+#: sds-main.php:188
+msgid "Select the field type"
+msgstr "Selecione o tipo de campo"
+
+#: sds-main.php:189
+msgid "Hide This Field From Search Query"
+msgstr "Esconder Este campo Do Pesquisador"
+
+#: sds-main.php:189
+msgid ""
+"If checked, the field information will not be shown in the search query on "
+"front-end. You can change this later by editing this field.."
+msgstr ""
+"Se marcada, as informações de campo não será exibido na consulta de pesquisa "
+"no front-end. Você pode alterar isso mais tarde editando este campo .."
+
+#: sds-main.php:191 sds-main.php:471
+msgid "You can have up to 10 values for this field"
+msgstr "Você pode ter até 10 valores para este campo"
+
+#: sds-main.php:199
+msgid "Add Field"
+msgstr "Adicionar Campo"
+
+#: sds-main.php:205
+msgid "Add Fields"
+msgstr "Adicionar Campos"
+
+#: sds-main.php:236 sds-main.php:239
+msgid "Field Added Successfully"
+msgstr "Campo adicionado com sucesso"
+
+#: sds-main.php:242
+msgid ""
+"All fields are required. Please make sure you have filled all fields (Also "
+"make sure the entered Field Name is not containing disallowed symbols)"
+msgstr ""
+"Todos os campos são necessários. Por favor, certifique-se de ter preenchido "
+"todos os campos (Também certifique-se o nome do campo entrou não está "
+"contendo símbolos não permitidos)"
+
+#: sds-main.php:276
+msgid ""
+"Guide: <strong style='color: #ff5500'>Hidden on front-end search query</"
+"strong> means the data for that particular field will not be shown on front-"
+"end search query when the user searches the data. You can control which data "
+"to be hidden/shown by editing the field."
+msgstr ""
+"Guia: <strong style = \"color: # ff5500\"> Escondido na consulta de pesquisa "
+"front-end </ strong>, os dados para esse campo específico não será mostrado "
+"na consulta de pesquisa front-end quando o usuário procura os dados. Você "
+"pode controlar quais dados a ser escondido / mostrado, editando o campo."
+
+#: sds-main.php:280
+msgid "Edit"
+msgstr "Editar"
+
+#: sds-main.php:280
+msgid ""
+"IMPORTANT: The data that you previously entered in this field will be also "
+"deleted from the Entries table. Continue? (THIS ACTION CANNOT BE UNDONE)"
+msgstr ""
+"IMPORTANTE: Os dados que anteriormente inserido neste campo será também "
+"excluída da tabela de entradas. Continuar? (ESTA AÇÃO NÃO PODE SER DESFEITA)"
+
+#: sds-main.php:280 sds-main.php:660
+msgid "Delete"
+msgstr "Deletar"
+
+#: sds-main.php:282
+msgid "Hidden on front-end search query."
+msgstr "Esconder na consulta de pesquisa front-end."
+
+#: sds-main.php:302
+msgid "Should Start with http"
+msgstr "Deve começar com http"
+
+#: sds-main.php:319
+msgid "Select"
+msgstr "selecionar"
+
+#: sds-main.php:349
+msgid ""
+"Hold down the Ctrl (windows) / Command (Mac) button to select multiple "
+"options"
+msgstr ""
+"Mantenha pressionada a tecla Ctrl (Windows) / botão Command (Mac) para "
+"selecionar múltiplas opções"
+
+#: sds-main.php:357
+msgid "Submit"
+msgstr "Enviar"
+
+#: sds-main.php:362
+msgid "Please add fields to this form first."
+msgstr "Por favor, adicionar campos para este formulário em primeiro lugar."
+
+#: sds-main.php:362
+msgid ""
+"Once you added the desired fields, you can start entering your data in the "
+"form"
+msgstr ""
+"Uma vez que você adicionou os campos desejados, você pode começar a digitar "
+"seus dados no formulário"
+
+#: sds-main.php:364
+msgid ""
+"Are you sure? The corresponding data will be removed as well. (THIS ACTION "
+"CANNOT BE UNDONE)"
+msgstr ""
+"Você tem certeza? Os dados correspondentes serão também removidos. (ESTA "
+"AÇÃO NÃO PODE SER DESFEITA)"
+
+#: sds-main.php:364
+msgid "Totally Delete This Form AND Its Corresponding Data."
+msgstr "Excluir totalmente este formulário e seus dados correspondentes."
+
+#: sds-main.php:369
+msgid ""
+"No form(s) to display. Please Create a new form first. Once you create your "
+"first form and add fields to it, it will appear on this page in an organized "
+"table. You will then be able to enter your data."
+msgstr ""
+"Nenhum formulário (s) para exibir. Por favor, crie um formulário em primeiro "
+"lugar. Depois de criar a sua primeira forma e adicionar campos para ele, ele "
+"será exibido nesta página em uma tabela organizada. Você então será capaz de "
+"introduzir os seus dados."
+
+#: sds-main.php:375
+msgid "Forms"
+msgstr "Formulários"
+
+#: sds-main.php:403 sds-main.php:414 sds-main.php:757 sds-main.php:777
+#: sds-main.php:787 sds-main.php:807
+msgid "Deleted Successfully"
+msgstr "Excluído com sucesso"
+
+#: sds-main.php:434
+msgid "Field Deleted Successfully"
+msgstr "Campo deletado com sucesso"
+
+#: sds-main.php:451
+msgid "Edit Field"
+msgstr "Editar campo"
+
+#: sds-main.php:454
+msgid "Form"
+msgstr "Formulário"
+
+#: sds-main.php:469
+msgid "Hide This Field From Search Query."
+msgstr "Esconder este campo do pesquisador"
+
+#: sds-main.php:469
+msgid ""
+"If checked, the field information will not be shown in the search query on "
+"front-end. You can change this later by editing this field."
+msgstr ""
+"Se marcada, as informações de campo não será exibido na consulta de pesquisa "
+"no front-end. Você pode alterar isso mais tarde editando este campo."
+
+#: sds-main.php:479
+msgid "Update Field"
+msgstr "Atualizar campo"
+
+#: sds-main.php:480
+msgid "Back to Forms"
+msgstr "Voltar para Formulários"
+
+#: sds-main.php:486
+msgid "Edit Fields"
+msgstr "Editar Campos"
+
+#: sds-main.php:508
+msgid "Updated Successfully"
+msgstr "Atualizado com sucesso"
+
+#: sds-main.php:511
+msgid ""
+"Please make sure the entered Field Name is not containing disallowed "
+"symbols, and also make sure you have selected Field Type"
+msgstr ""
+"Por favor, certifique-se o nome do campo entrou não está contendo símbolos "
+"não permitidos, e também certificar-se de que você selecionou Tipo de campo"
+
+#: sds-main.php:597
+msgid "Entry Submitted!"
+msgstr "Entrada enviada!"
+
+#: sds-main.php:609
+msgid ""
+"Some Symbols are not allowed for security. Please reconsider your entries. "
+"Allowed symbols are: @-_.,\\/:?'!;&~()"
+msgstr ""
+"Alguns símbolos não são permitidos para a segurança. Por favor, reconsidere "
+"suas entradas. Símbolos permitidos são: @ -_, \\ /:.?! '; & ~ ()"
+
+#: sds-main.php:645
+msgid "Download Table In CSV Format"
+msgstr "Download da tabela no formato CSV"
+
+#: sds-main.php:645
+msgid ""
+"After you downloaded the table, rename the file and put .csv at the end of "
+"the file name."
+msgstr ""
+"Depois de baixado a tabela, renomeie o arquivo e coloca .csv no final do "
+"nome do arquivo."
+
+#: sds-main.php:690 sds-main.php:702
+msgid "Are you sure? (THIS ACTION CANNOT BE UNDONE)"
+msgstr "Você tem certeza? (ESTA AÇÃO NÃO PODE SER DESFEITA)"
+
+#: sds-main.php:690
+msgid "Delete Row"
+msgstr "Excluir linha"
+
+#: sds-main.php:696
+msgid "There is no input"
+msgstr "Não há entrada"
+
+#: sds-main.php:702
+msgid "Delete All Entries in This Table"
+msgstr "Apagar todas as entradas desta tabela"
+
+#: sds-main.php:703
+msgid ""
+"Are you sure? The corresponding form will be deleted as well. (THIS ACTION "
+"CANNOT BE UNDONE)"
+msgstr ""
+"Você tem certeza? O formulário correspondente serão excluídos também. (ESTA "
+"AÇÃO NÃO PODE SER DESFEITA)"
+
+#: sds-main.php:703
+msgid "Totally Delete This Table AND Its Corresponding Form"
+msgstr "Excluir Totalmente esta tabela e seu formulário correspondente"
+
+#: sds-main.php:710
+msgid ""
+"No inputs to display. Once you had inputs from your form, they will appear "
+"on this page in an organized table."
+msgstr ""
+"Não há entradas para exibir. Uma vez que você teve entradas a partir de seu "
+"formulário, eles vão aparecer nesta página em uma tabela organizada."
+
+#: sds-main.php:757 sds-main.php:777 sds-main.php:787
+msgid ""
+"Note: If you had file uploads in your inputs, you should manually remove "
+"their directory via FTP connection."
+msgstr ""
+"Nota: Se você tivesse o upload de arquivos em suas entradas, você deve "
+"remover manualmente seu diretório através de uma ligação FTP."
+
+#: sds-main.php:817 sds-main.php:886
+msgid "Upload CSV File"
+msgstr "Enviar arquivo CSV"
+
+#: sds-main.php:820
+msgid "CSV File: *"
+msgstr "CSV de arquivo: *"
+
+#: sds-main.php:823
+msgid "Upload File"
+msgstr "Subir arquivo"
+
+#: sds-main.php:826
+msgid "Important Notes Before Uploading Your File."
+msgstr "Notas importantes antes de carregar o arquivo."
+
+#: sds-main.php:827
+msgid ""
+"Follow these notes carefully to avoid any messed up input to the tables."
+msgstr ""
+"Siga estas notas com cuidado para evitar qualquer desconfiguração na entrada "
+"para as tabelas."
+
+#: sds-main.php:829
+msgid "The file SHOULD be in CSV format."
+msgstr "O arquivo deve estar no formato CSV."
+
+#: sds-main.php:830
+msgid ""
+"Put the letters : <strong>sds</strong> (Exactly the same letters - All "
+"lowercase) at the first row of your file (Which contains the column names). "
+"<strong>This is super important.</strong>"
+msgstr ""
+"Coloque as cartas: <strong> sds </ strong> (exatamente as mesmas letras - em "
+"letras minúsculas) na primeira linha do seu arquivo (que contém os nomes das "
+"colunas). <strong> Esta é super importante. </ strong>"
+
+#: sds-main.php:832
+msgid "Example"
+msgstr "Exemplo"
+
+#: sds-main.php:833
+msgid "Assume you have an Excel file that contains a table like this:"
+msgstr ""
+"Suponha que você tenha um arquivo do Excel que contém uma tabela como esta:"
+
+#: sds-main.php:855
+msgid ""
+"The first row of this example file contains the table headers. The structure "
+"is probably the same in your own file as well. When you save your Excel file "
+"as CSV, make sure you add these three letters: (<strong>sds</strong>) to the "
+"beginning of the first row.<strong>(Note that there is No spaces between "
+"\"sds\" and \"Clients Name\")</strong>. Like below:"
+msgstr ""
+"A primeira linha deste arquivo exemplo contém os cabeçalhos da tabela. A "
+"estrutura é provavelmente o mesmo em seu próprio arquivo também. Quando você "
+"salvar o arquivo Excel como CSV, certifique-se de adicionar estas três "
+"letras:. (<Strong> sds </ strong>) para o início da primeira linha <strong> "
+"(Note que não há espaços entre  \"sds\" e  \"Clientes Name \") </ strong>. "
+"Como abaixo:"
+
+#: sds-main.php:870
+msgid "Done! Your data properly get inserted to the database."
+msgstr "Feito! Seus dados foram corretamente inseridos no banco de dados."
+
+#: sds-main.php:874
+msgid "Good To Know"
+msgstr "Bom saber"
+
+#: sds-main.php:876
+msgid ""
+"Your table header (That contains the column names) can be seen under Forms "
+"menu on its own tab. And the column names (Fields Names) can be edited/ "
+"deleted  just like the other forms that you create by this plugin. The field "
+"types for the uploaded fields are \"Text Field\" by default, and you can "
+"change them as you like."
+msgstr ""
+"Seu cabeçalho da tabela (que contém os nomes das colunas) podem ser vistos "
+"no menu formulários em sua própria guia. E os nomes das colunas (campos "
+"nomes) pode ser editado / excluído, assim como as outras formas que você "
+"criar este plugin. Os tipos de campo para os campos enviados são \"Campo de "
+"texto\" por padrão, e você pode alterá-los como quiser."
+
+#: sds-main.php:877
+msgid "Your main data can be seen under Entries menu on its own tab."
+msgstr ""
+"Os seus principais dados pode ser visto no menu Entradas em sua própria guia."
+
+#: sds-main.php:878
+msgid ""
+"Just like other tables, you have full control over showing/hiding your "
+"desired fields in user's search query"
+msgstr ""
+"Assim como outras tabelas, você tem total controle sobre mostrando / "
+"escondendo seus campos desejados na consulta de pesquisa do usuário"
+
+#: sds-main.php:879
+msgid ""
+"There is absolutely no constraint on the number of columns or anything else "
+"for your file. So enjoy uploading!"
+msgstr ""
+"Não há absolutamente nenhuma restrição sobre o número de colunas ou qualquer "
+"outra coisa para o seu arquivo. Então aproveite a atualização!"
+
+#: sds-main.php:942
+msgid ""
+"An error occur. Please try again. This error will not happen next time! "
+msgstr ""
+"Ocorreu um erro. Por favor, tente novamente. Este erro não acontecerá da "
+"próxima vez!"
+
+#: sds-main.php:996
+msgid ""
+"Uploaded Successfully. You can now update/delete or hide any field from "
+"search query on Forms menu page. And can see the main data on Entries menu "
+"page."
+msgstr ""
+"Carregado com sucesso. Agora você pode atualizar / excluir ou ocultar "
+"qualquer campo de pesquisa consulta na página do menu formulários. E pode "
+"ver os principais dados sobre a página do menu Entradas."
+
+#: sds-main.php:1007 sds-main.php:1009
+msgid "Search"
+msgstr "Pesquisa"
+
+#: sds-main.php:1008
+msgid "SEARCH HERE..."
+msgstr "PESQUISE AQUI..."
+
+#: sds-main.php:1109
+msgid "No Result"
+msgstr "Sem Resultado"

@@ -1,0 +1,13 @@
+
+.vitamins {
+    
+}
+
+.minerals {
+    
+}
+h2.subhead{font-size:14px;text-transform:uppercase;color:#fff;display:block;padding:5px;border:solid 1px #ddd;background:#ff0000;font-weight:bold;}
+.coloom {width:98%; margin:1%; background-color:transparent;border:solid 1px #ddd; height:auto; text-align:center }
+.backgrounder{
+    background-image: url(../images/backgrounder.jpg);width:100%;
+}

@@ -1,0 +1,18 @@
+jQuery('.evdpl-posts-slider').owlCarousel({
+	    nav:evdpl_lps_script_vars.owl_arrows,
+	    loop:true,
+	    margin:10,
+	    dots:evdpl_lps_script_vars.owl_dots,
+	    responsiveClass:true,
+	    responsive:{
+	        0:{
+	            items:1
+	        },
+	        600:{
+	            items:2
+	        },
+	        1000:{
+	            items:3
+	        }
+	    }
+	});
